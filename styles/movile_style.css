@@ -1,0 +1,106 @@
+
+*{
+    color: white;
+    
+}
+  /*  font-family: Lexend Deca; fuente de titulos */
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(3, 410px);
+    margin: 100px 30px 60px 30px;
+
+
+}
+
+/* Aqui comienzan los estilos del primer contenedor */
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.sedans svg{
+   margin-top: 40px;
+   margin-left: 40px;
+}
+.sedans h1 {
+    font-family:Big Shoulders Display;
+    font-weight:lighter;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.sedans p {
+    font-family: Lexend Deca;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+    padding: 0px 50px 0px 20px;
+    line-height: 2em; 
+}
+
+.button__sedans{
+    border-style: none;
+    border-radius: 20px;
+    color:hsl(31, 77%, 52%);
+    font-family: Lexend Deca;
+    height: 45px;
+    margin-left: 40px;
+    width: 130px;
+    
+    
+}
+
+/* Aqui comienzan los estilos del segundo contenedor */
+.suvs{
+    background-color:hsl(184, 100%, 22%);
+    
+}
+.suvs svg{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.suvs h1 {
+    font-family:Big Shoulders Display;
+    font-weight:lighter;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.suvs p {
+    font-family: Lexend Deca;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+    padding: 0px 50px 0px 20px;
+    line-height: 2em; 
+}
+
+
+.button__suvs{
+    border-style: none;
+    border-radius: 20px;
+    color:hsl(184, 100%, 22%);
+    font-family: Lexend Deca;
+    margin-left: 40px;
+    height: 45px;
+    width: 130px;
+}
+
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    
+}
+
+.button__luxury{
+    border-style: none;
+    border-radius: 20px;
+    color: hsl(179, 100%, 13%);
+    font-family: Lexend Deca;
+    height: 45px;
+    width: 130px;
+}
