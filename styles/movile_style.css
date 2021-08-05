@@ -31,6 +31,7 @@
 }
 
 .sedans p {
+    color:hsla(0, 0%, 100%, 0.75);
     font-family: Lexend Deca;
     font-weight: 100;
     font-size: 14px;
@@ -41,6 +42,7 @@
 }
 
 .button__sedans{
+    background-color: hsla(0, 0%, 100%, 0.75);
     border-style: none;
     border-radius: 20px;
     color:hsl(31, 77%, 52%);
@@ -48,8 +50,10 @@
     height: 45px;
     margin-left: 40px;
     width: 130px;
-    
-    
+}
+.button__sedans:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
 }
 
 /* Aqui comienzan los estilos del segundo contenedor */
@@ -70,6 +74,7 @@
 }
 
 .suvs p {
+    color: hsla(0, 0%, 100%, 0.75);
     font-family: Lexend Deca;
     font-weight: 100;
     font-size: 14px;
@@ -81,6 +86,7 @@
 
 
 .button__suvs{
+    background-color: hsla(0, 0%, 100%, 0.75);
     border-style: none;
     border-radius: 20px;
     color:hsl(184, 100%, 22%);
@@ -89,18 +95,54 @@
     height: 45px;
     width: 130px;
 }
+.button__suvs:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+}
 
+/* Aqui comienzan los estilos del tercer contenedor */
 
 .luxury{
     background-color: hsl(179, 100%, 13%);
-    
 }
 
+.luxury svg{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.luxury h1 {
+    font-family:Big Shoulders Display;
+    font-weight:lighter;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.luxury p {
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+    padding: 0px 50px 0px 20px;
+    line-height: 2em; 
+}
+
+
 .button__luxury{
+    background-color: hsla(0, 0%, 100%, 0.75);
     border-style: none;
     border-radius: 20px;
     color: hsl(179, 100%, 13%);
     font-family: Lexend Deca;
+    margin-left: 40px;
     height: 45px;
     width: 130px;
+    
+}
+
+.button__luxury:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
 }
