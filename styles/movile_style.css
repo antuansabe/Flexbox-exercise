@@ -1,3 +1,5 @@
+@media only screen and (max-width: 768px) {
+
 
 *{
     color: white;
@@ -145,4 +147,6 @@
 .button__luxury:hover {
     cursor: pointer;
     background-color: hsl(0, 0%, 95%);
+}
+
 }
